@@ -18,12 +18,16 @@ The first line contains a single string, .
 The second line contains an integer, , the length of each substring.
 
 
+
+
 Sample Input
 
 STDIN       Function
 -----       --------
 AABCAAADA   s = 'AABCAAADA'
 3           k = 3
+
+
 Sample Output
 
 AB
