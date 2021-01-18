@@ -1,0 +1,5 @@
+English_newsPaper=input()
+roll_no=set(map(int,input().split()))
+French_newsPaper=input()
+roll_no_2=set(map(int,input().split()))
+print(len(roll_no^(roll_no_2)))
