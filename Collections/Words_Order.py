@@ -1,15 +1,11 @@
-from collections import OrderedDict
-od=OrderedDict()
-quentity=int(input())
-for i in range(quentity):
-    str=input().split()
-    value=int(str[-1])
-    key=' '.join(str[:-1])
-    if key in od:
-        od[key]=od[key]+value
-    else:
-        od[key]=value
-
-
-for key,value in od.items():
-    print(key,value)
+count=int(input())
+words=dict()
+for i in range(count):
+	word=input()
+	if word not in words:
+		words.update({word:1})
+	else:
+		words[word]= words[word]+1
+print(len(words.keys()))
+for i in words.values():
+	print(i,end=' ')
